@@ -1,0 +1,17 @@
+[project]
+name = "pkm"
+version = "0.0.0"
+description = "Personal Knowledge Management Compendium"
+requires-python = ">=3.14"
+
+[dependency-groups]
+docs = [
+    "sphinx",
+    "myst-parser",
+    "sphinx-book-theme",
+    "sphinx-autobuild",
+]
+
+[tool.uv]
+package = false
+default-groups = ["docs"]
